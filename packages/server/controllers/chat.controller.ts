@@ -21,6 +21,7 @@ export const chatController = {
             res.status(400).json(flat);
             return;
         }
+
         try {
             const { prompt, conversationId } = req.body;
             const response = await chatServices.sendMessage(
