@@ -1,8 +1,8 @@
-import { ChatBot } from '@/components/ChatBot.tsx';
+import { ChatBot } from '@/components/chat/ChatBot.tsx';
 
 function App() {
     return (
-        <div className="p-4">
+        <div className="p-4 h-screen w-full ">
             <ChatBot />
         </div>
     );
