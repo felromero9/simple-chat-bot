@@ -29,7 +29,7 @@ export const ChatMessages = ({ messages }: Props) => {
                 <div
                     key={index}
                     ref={index === messages.length - 1 ? lastMessageRef : null}
-                    className={`px-3 py-1 rounded-2xl 
+                    className={`px-3 py-1  max-w-md rounded-2xl 
                          ${
                              message.role === ROLES.User
                                  ? 'bg-blue-700 text-white self-end'
